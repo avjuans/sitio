@@ -10326,7 +10326,7 @@ width: 100%;
 .buttonsidpac {background-color: #CC3333;
     border-radius: 40px;
     padding: 10px 25px 10px 25px;	
-    color: #ffffff;}
+    color: #ffffff; margin-top:15px; margin-bottom:15px;}
 
 .buttonsidpac:hover {background-color: #8C1B15;
     }
