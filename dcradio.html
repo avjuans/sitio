@@ -53,7 +53,7 @@
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navigation clearfix">
                                 <li><a href="dcradio.html">Inicio</a></li>
-								<li><a href="franja-de-programacion.html">Franja de programación</a></li>
+								<li><a href="franja-de-programacion.html">Programación</a></li>
 								<li><a href="podcast.html">Podcast</a></li>
                                 <li><a href="programas.html">Programas</a></li>
                             </ul>
@@ -134,24 +134,42 @@
     </header>
 	</div>
     <!--End Main Header -->
-
+	<!-- Barra de Accesibilidad -->
+    <div class="accessibility-bar">
+        <a href="#" class="accessibility-button">
+            <p class="text-white">A+</p>
+            <span class="accessibility-text">Aumentar Texto <span style="font-weight:bold;font-size:16px;">A+</span></span>
+        </a>
+        <a href="#" class="accessibility-button">
+            <p class="text-white">A-</p>
+            <span class="accessibility-text">Disminuir Texto <span style="font-weight:bold;font-size:16px;">A-</span></span>
+        </a>
+        <a href="#" class="accessibility-button">
+            <i class="fas fa-adjust"></i>
+            <span class="accessibility-text">Alto Contraste <i class="fas fa-adjust"></i></span>
+        </a>
+        <a href="#" class="accessibility-button">
+            <img src="images/centrorelevo.png" width="20px">
+            <span class="accessibility-text">Centro de Relevo <img src="images/centrorelevo.png" width="20px" style="filter: brightness(0.5);"></span>
+        </a>
+    </div>
     <!--Page Title-->
     <section class="page-title" style="background-image:url('images/banner-dcradio.jpg')">
         <div class="auto-container">
             <h1 style="font-weight: 900;color:#fff;">LA EMISORA</h1>
 			<h1 style="font-weight: 300;color:#fff;">QUE TE VE</h1>           
-			                    <div class="row col-12 p-3">
+			                    <div class="col-12 p-3">
 									<div class="col-1"></div>
-									<div class="gaussian col-lg-10 d-md-flex p-3">
-									<div class="col-lg-2"><img src="images/LogoSquare_DCRadio.png"></div>
+									<div class="gaussian col-lg-12 d-md-flex p-3">
+									<div class="col-lg-2"><img src="images/LogoSquare_DCRadio.png" class="imgdcradio"></div>
 									<div class="col-lg-10 align-items-center">
-										<h3 class="text-white text-left font-weight-normal"><b>Canales disponibles</b> en vivo</h3>
+										<h3 class="titulocanales"><b>Canales disponibles</b> en vivo</h3>
 										<div class="tabscanales tabs-box">
                         <!--Tabs Box-->
                         <ul class="tab-buttons clearfix">
                             <li class="tab-btn active-btn" data-tab="#tab1">DC RADIO</li>
                             <li class="tab-btn" data-tab="#tab2">Institucional</li>
-                            <li class="tab-btn" data-tab="#tab3">Canal Capital</li>
+                           
 							
                         </ul>
 
@@ -176,16 +194,7 @@
 											</audio>
 							
                             </div>
-                            <!--Tab-->
-                            <div class="tab pl-0" id="tab3">
-								<div class="audio-player">
-	<audio controls="controls" id="audioAJDDHR" preload="auto">
-	<source src="http://streaming.hqs-la.com:8000/dcremoto2" type="audio/mpeg" />	Su navegador no soporta AUDIO.<br />
-											</audio>
-                               
-								
-                            </div>
-                            </div>
+                            
 
                             
                         </div>
@@ -195,18 +204,19 @@
         </div>
 									
 			</div>
-		
+			</div>
+		</div>
     </section>
     <!--End Page Title-->
 	<div class="auto-container">
-	<div class="col-12 text-center margin-top-50"><h2>Destacados</h2></div>
+	<div class="col-12 text-center margin-top-30 margin-bottom-30"><h2>Destacados</h2></div>
 	</div>
-	<div class="auto-container">
+	<div class="auto-container mobiledestacados">
                 <!-- Brand Block -->
-				<div class="col-12 d-flex justify-content-around mt-lg-5">
-                <div class="row col-5 d-flex pl-0 destacado">
-                    <div class="col-lg-5 p-3"><img src="images/thumb_votec.png"></div>
-                    <div class="col-lg-7 p-3">
+				<div class="coldestacados col-lg-12">
+                <div class="col-md-6 pl-0 destacado">
+                    <div class="col-md-5"><img src="images/thumb_votec.png"></div>
+                    <div class="col-md-7 paddinginterno">
                         <div class="inner-column">
                             <h5>Votec Comunal</h5>
                             <div class="text">Hablamos sobre la jornada de vacunación💉 que se está realizando desde el 20 al 28 de enero.</div>
@@ -216,7 +226,7 @@
 					
                 </div>
 					
-					<div class="row col-5 d-flex pl-0 destacado">
+					<div class="col-lg-6 pl-0 destacado">
                     <div class="col-lg-5 p-3"><img src="images/thumb_votec.png"></div>
                     <div class="col-lg-7 p-3">
                         <div class="inner-column">
@@ -238,7 +248,7 @@
 	
 	<div class="row margin-top-40 pt-5 pb-5" style="background-image: url('images/bg-dc2.jpg');">
 		<div class="col-12 text-center margin-top-20 margin-bottom-30"><h2>Programas</h2></div>
-		<div class="col-md-12 d-inline-flex auto-container">
+		<div class="col-md-12 audiowhatsapp auto-container">
 		<div class="col-md-6 bg-white pl-5 bubbletitle"><h3>Programa Corredor Verde</h3><p>Emisión marzo 12 de 2023</p></div>
 			<div class="col-md-6 p-0">
 				<div class="boxaudio sb1 d-inline-flex"><div class="col-3"><img src="images/thumb_programa.png"></div><div class="audio-player col-9">
@@ -250,7 +260,7 @@
 		</div>
 	</div>
 		
-		<div class="col-md-12 d-inline-flex auto-container margin-top-30">
+		<div class="col-md-12 audiowhatsapp auto-container margin-top-30">
 			<div class="col-md-6 p-0">
 				<div class="boxaudio2 sb2 d-inline-flex"><div class="col-3"><img src="images/thumb_programa.png"></div><div class="audio-player col-9">
 	<audio controls="controls" id="audioAJDDHR" preload="auto">
@@ -265,17 +275,47 @@
 		
 			<!--AUDIOS WHATSAPP -->
 	
-	<div class="row margin-top-40 pt-5 pb-5">
-		<div class="col-12 text-center margin-top-20 margin-bottom-30"><h2>Redes Sociales</h2></div>
-		<div class="col-md-12 d-inline-flex auto-container">
-		<div class="col-md-6"><iframe width="560" height="315" src="https://www.youtube.com/embed/9rkcHSOFTsA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
-			<div class="col-md-3"><h3>Twitter</h3></div>
-			<div class="col-md-3"><h3>Instagram</h3></div>
-			
-	</div>
-		
-		
-		</div>
+		<!-- Social Section -->
+    <section class="social-section">
+		<div class="sec-title text-center">
+               
+                <h2>Redes Sociales</h2>
+                
+            </div>
+        <div class="auto-container">
+            <div class="row">
+				<!-- News Block -->
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="social-block">
+                        <h2>Youtube</h2>
+                        
+                    </div>
+                </div>
+                <!-- News Block -->
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="social-block">
+                        <h2>Instagram</h2>
+                        
+                    </div>
+                </div>
+
+                <!-- News Block -->
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="social-block">
+                 <h2>Twitter</h2>
+                    </div>
+                </div>
+
+                <!-- News Block -->
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="social-block">
+<h2>Facebook</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End News Section -->
 	
     <!-- End Content Elements -->
 
@@ -322,30 +362,7 @@
 
 	<!-- FOOTER -->
 		
-		<div class="page__side">
-  <div class="mt-sticky-element">
-    
-    
-    <div class="content-font-settings">
-        <div class="font-resize">
-          <a href="#" id="decfont" data-toggle="tooltip" data-placement="left" title="" data-original-title="Disminuir fuente">A-</a>
-          <a href="#" id="incfont" data-toggle="tooltip" data-placement="left" title="" data-original-title="Aumentar fuente">A+</a>
-        </div>
-        <div class="high-contrast">
-          <a id="high_contrast" href="javascript: void(0)" class="icon-contrast" data-toggle="tooltip" data-placement="left" title="" data-original-title="Cambiar niveles de contraste">
-            <span title="Cambiar niveles de contraste">
-              <svg class="svg-inline--fa fa-adjust fa-w-16" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="adjust" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M8 256c0 136.966 111.033 248 248 248s248-111.034 248-248S392.966 8 256 8 8 119.033 8 256zm248 184V72c101.705 0 184 82.311 184 184 0 101.705-82.311 184-184 184z"></path></svg><!-- <i class="fas fa-adjust"></i> -->
-            </span>
-          </a>
-        </div>
-        <div class="centro-relevo">
-          <a href="https://centroderelevo.gov.co/632/w3-channel.html" target="_blank" class="icon-relevo" data-toggle="tooltip" data-placement="left" title="" data-original-title="Ir a Centro de relevo">
-            <img src="/themes/custom/cleanplus/images/ico_centro-relevo.png" alt="Ir a centro de relevo">
-          </a>
-        </div>
-    </div>
-  </div>
-</div>
+		
 
 <!-- End Page Wrapper -->
 
