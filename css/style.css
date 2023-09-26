@@ -10326,7 +10326,7 @@ width: 100%;
 .buttonsidpac {background-color: #CC3333;
     border-radius: 40px;
     padding: 10px 25px 10px 25px;	
-    color: #ffffff; margin-top:15px; margin-bottom:15px;}
+    color: #ffffff;}
 
 .buttonsidpac:hover {background-color: #8C1B15;
     }
@@ -11468,7 +11468,7 @@ Vertical Tab
 .votacionesactivas {background:url("../images/bg-votec.jpg"); background-size:cover;background-repeat:no-repeat; padding-top:40px; padding-bottom:40px; padding-left:15px; padding-right:40px; column-gap:15px;}
 .seccionconvocatoriashome {background:url("../images/bg-home-nebulosa.jpg"); background-size:cover;background-repeat:no-repeat; padding-top:40px; padding-bottom:40px; padding-left:15px; padding-right:40px; column-gap:15px;}
 .pubcolumn {column-gap:15px; margin-bottom:40px; display:flex;}
-.blancoborder {background-color:#ffffff; border-radius:10px; padding:5px 5px 5px 5px; align-items:center;}
+.blancoborder {background-color:#ffffff; border-radius:10px; padding:5px 5px 5px 5px; align-items:center; display:flex;}
 .rojoborder {background-color:#ffe5e0; border-radius:10px; padding:5px 5px 5px 5px; align-items:center; border: 1px solid #e01c1c;}
 .grisborder {background-color:#f0f0f0; border-radius:10px; padding:5px 5px 5px 5px; align-items:center; border: 1px solid #c2c2c2;}
 .gris {background-color:#F2F4F5; border-radius:15px;min-height:300px; margin-top:40px; padding:30px;}
@@ -11878,4 +11878,7 @@ padding:20px;}
 	.paragraph-4 {word-break: break-word;}
 	.social-block {margin-bottom:20px;}
 	.header-gov{padding-left:26px;}
+	.blancoborder {display: inline-flex;
+    margin-bottom: 15px;}
+	.pubcolumn {display:flex; flex-direction: column;}
 }
