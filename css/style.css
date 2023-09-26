@@ -11881,4 +11881,8 @@ padding:20px;}
 	.blancoborder {display: inline-flex;
     margin-bottom: 15px;}
 	.pubcolumn {display:flex; flex-direction: column;}
+	.columnaboton {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
 }
